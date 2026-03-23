@@ -101,11 +101,11 @@ fun ContactSection() {
             .padding(bottom = 48.dp)
             .padding(horizontal = 16.dp)
     ) {
-        ContactRow("👤", ".")
+        ContactRow("Nome:", "VictorYudi Rossi Marimoto")
         Spacer(modifier = Modifier.size(8.dp))
-        ContactRow("📞", "11 95721-4069")
+        ContactRow("Contato:", "11 4002-8922")
         Spacer(modifier = Modifier.size(8.dp))
-        ContactRow("✉️", "
+        ContactRow("Email:", "victorlinuxvanessa@gmail.com")
     }
 }
 
