@@ -79,7 +79,7 @@ fun ProfileSection() {
         Spacer(modifier = Modifier.size(16.dp))
 
         Text(
-            text = "Heloisa Silva Verly Fonseca",
+            text = "",
             fontSize = 28.sp,
             textAlign = TextAlign.Center,
             modifier = Modifier.padding(horizontal = 24.dp),
@@ -101,11 +101,11 @@ fun ContactSection() {
             .padding(bottom = 48.dp)
             .padding(horizontal = 16.dp)
     ) {
-        ContactRow("👤", "Quem sou eu? Uma garota que sonha em ser veterinária de animais silvestres.")
+        ContactRow("👤", ".")
         Spacer(modifier = Modifier.size(8.dp))
         ContactRow("📞", "11 95721-4069")
         Spacer(modifier = Modifier.size(8.dp))
-        ContactRow("✉️", "heloisasvfonseca@gmail.com")
+        ContactRow("✉️", "
     }
 }
 
